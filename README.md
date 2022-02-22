@@ -15,10 +15,11 @@ The dataset resembles a real dataset and has many of the same challenges.  The c
 
 ## Data Preparation
 - Choosing which columns to use for the training was chosen since customers will be segmented using KMeans.
-- Null values in the "Order payment type" column are filled with the same row as the previous row.
-- Categorical variable is converted into dummy/indicator variables.
+- Null values in the "Order payment type" column were filled with the same row as the previous row.
+- Categorical variable was converted into dummy/indicator variables.
 
 ## Modeling
 - Number of clusters where silhouette score remains constant number of customer segments should be selected
 - When we look at the results, the number of customer segmentation should be 5
-- 
+- RFM table was created ( Recency, Frequency and Monetary)
+- Customers were segmented according to Monetary and Frequency
